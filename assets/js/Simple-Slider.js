@@ -2,7 +2,7 @@ $(function(){
 
     // Initializing the swiper plugin for the slider.
     // Read more here: http://idangero.us/swiper/api/
-    
+
     var mySwiper = new Swiper ('.swiper-container', {
         speed: 400,
         spaceBetween: 100,
@@ -13,7 +13,8 @@ $(function(){
         prevButton: '.swiper-button-prev',
         centeredSlides: true,
         autoplay: 2500,
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction: false,
+        effect:'fade'
     });
-    
+
 });
