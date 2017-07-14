@@ -1,6 +1,21 @@
-.swiper-container {
-  height: auto;
-  width: 100%;
-  border-radius: 50% 50%;
+@media screen and (min-width: 960px) {
+    .swiper-container {
+    height: 600px;
+    width: 600px;
+    border-radius: 50% 50%;
+  }
 }
-
+@media screen and (min-width: 480px) {
+    .swiper-container {
+    height: 400px;
+    width: 400px;
+    border-radius: 50% 50%;
+  }
+}
+@media screen and (min-width: 320px) {
+    .swiper-container {
+    height: 300px;
+    width: 300px;
+    border-radius: 50% 50%;
+  }
+}
